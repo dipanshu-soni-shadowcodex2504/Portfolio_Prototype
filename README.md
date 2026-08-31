@@ -1,7 +1,7 @@
 # Hyper-Glass Bento Developer Portfolio
 
 A developer portfolio website featuring a **Hyper-Glass Bento Grid aesthetic**, dynamic multi-theme engine, interactive in-browser CLI terminal, project showcase quick-view modal, live skills proficiency meters, and verified certifications directory.
-
+Access the live portfolio Here click[https://dipanshu-soni-shadowcodex2504.github.io/Portfolio_Prototype/]
 ---
 
 ## ✨ Key Features & Enhancements
