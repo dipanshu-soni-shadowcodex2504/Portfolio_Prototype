@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07120a" />
+      <stop offset="100%" stop-color="#020503" />
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#nsGrad)"/>
+  
+  <!-- Neural Mesh Grid -->
+  <g stroke="rgba(16, 185, 129, 0.25)" stroke-width="1">
+    <line x1="100" y1="80" x2="250" y2="140" />
+    <line x1="250" y1="140" x2="380" y2="100" />
+    <line x1="380" y1="100" x2="500" y2="180" />
+    <line x1="250" y1="140" x2="300" y2="260" />
+    <line x1="300" y1="260" x2="450" y2="280" />
+    <line x1="450" y1="280" x2="500" y2="180" />
+  </g>
+
+  <!-- Glowing Nodes -->
+  <circle cx="100" cy="80" r="10" fill="#10b981" />
+  <circle cx="250" cy="140" r="14" fill="#34d399" />
+  <circle cx="380" cy="100" r="12" fill="#059669" />
+  <circle cx="500" cy="180" r="16" fill="#10b981" />
+  <circle cx="300" cy="260" r="12" fill="#22c55e" />
+  <circle cx="450" cy="280" r="10" fill="#10b981" />
+
+  <!-- Code / UI Card Floating -->
+  <rect x="180" y="80" width="240" height="150" rx="12" fill="rgba(16, 185, 129, 0.06)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.5"/>
+  <circle cx="205" cy="100" r="4" fill="#ff5f56"/>
+  <circle cx="220" cy="100" r="4" fill="#ffbd2e"/>
+  <circle cx="235" cy="100" r="4" fill="#10b981"/>
+  
+  <rect x="205" y="125" width="120" height="8" rx="4" fill="#10b981"/>
+  <rect x="205" y="145" width="180" height="6" rx="3" fill="rgba(255, 255, 255, 0.3)"/>
+  <rect x="205" y="160" width="140" height="6" rx="3" fill="rgba(255, 255, 255, 0.2)"/>
+  <rect x="205" y="175" width="160" height="6" rx="3" fill="#34d399"/>
+  <rect x="205" y="195" width="90" height="16" rx="4" fill="url(#neonGreen)"/>
+  
+  <text x="300" y="325" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">NeuralSync AI Platform</text>
+</svg>
