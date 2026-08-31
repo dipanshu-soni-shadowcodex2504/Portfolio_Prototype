@@ -24,34 +24,12 @@ A developer portfolio website featuring a **Hyper-Glass Bento Grid aesthetic**, 
    - Canvas-based interactive particle constellation that responds smoothly to mouse interactions.
 7. **📱 100% Responsive & SEO Optimized**:
    - Optimized for mobile, tablet, and widescreen desktops with OpenGraph, Twitter Cards, and Schema.org metadata.
-
----
-
-## 🛠️ How to Customize for Your Friend (in 3 Simple Steps)
-
-### Step 1: Edit `scripts/data.js`
-Open [`scripts/data.js`](file:///scripts/data.js) in any text editor and update:
-- **`profile`**: Replace name, title, roles, bio, location, email, and social links.
-- **`skills`**: Add or remove skills and adjust proficiency percentages.
-- **`projects`**: Add your friend's real projects, screenshots, GitHub links, and live URLs.
-- **`certifications`**: Update cloud credentials, badge colors, and verification URLs.
-- **`journey`**: Customize work history, internships, and education.
-
-### Step 2: Replace Avatar & Resume
-- Place your friend's profile picture at `images/avatar.svg` (or `.png`/`.jpg` and update the path in `data.js`).
-- Place their resume PDF at `assets/resume.pdf`.
-
-### Step 3: Deploy Free to the Web
-You can host this static portfolio for free on:
-- **GitHub Pages**: Push this folder to a GitHub repository, go to `Settings -> Pages`, and select `Deploy from Branch (main / root)`.
-- **Vercel / Netlify**: Simply drag and drop this folder or connect the GitHub repository.
-
 ---
 
 ## 📂 File Structure
 
 ```text
-friend-portfolio/
+portfolio/
 ├── index.html              # Semantic HTML5 architecture & metadata
 ├── styles/
 │   └── style.css           # Bento CSS grid, themes, & glassmorphic styling
